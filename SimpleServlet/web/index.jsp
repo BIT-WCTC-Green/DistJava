@@ -1,7 +1,12 @@
 <html>
 <body>
-<h1>Simple Servlet</h1>
-<a href="simple?message=This is a message">Simple Site</a>
+<h1>Simple Servlet Enter Search below:</h1>
+
+<form action="simple" method="post">
+    <label for="message">Search: </label>
+    <input name="message" id="message" />
+    <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+</form>
 </body>
 
 

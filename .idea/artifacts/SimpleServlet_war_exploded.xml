@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SimpleServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SimpleServlet" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SimpleServlet/web/Web3" />
+      <element id="javaee-facet-resources" facet="SimpleServlet/web/Web2" />
+      <element id="javaee-facet-resources" facet="SimpleServlet/web/Web4" />
+      <element id="javaee-facet-resources" facet="SimpleServlet/web/Web5" />
+      <element id="javaee-facet-resources" facet="SimpleServlet/web/Web" />
+    </root>
+  </artifact>
+</component>
