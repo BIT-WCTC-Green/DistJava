@@ -16,17 +16,17 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
 
         PrintWriter out = response.getWriter();
-        String title = "Reading All Form Parameters";
+        String title = "Student Data";
         String docType =
-                "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
+                "<!DOCTYPE html>\n";
 
         out.println(docType +
                         "<html>\n" +
                         "<head><title>" + title + "</title></head>\n" +
-                        "<body bgcolor = \"#f0f0f0\">\n" +
-                        "<h1 align = \"center\">" + title + "</h1>\n" +
-                        "<table width = \"100%\" border = \"1\" align = \"center\">\n" +
-                        "<tr bgcolor = \"#949494\">\n" +
+                        "<body>\n" +
+                        "<h1>" + title + "</h1>\n" +
+                        "<table>\n" +
+                        "<tr>\n" +
                         "<th>Param Name</th>" +
                 "<th>Param Value(s)</th>\n"+
                         "</tr>\n"
@@ -38,7 +38,6 @@ public class SimpleServlet extends HttpServlet {
             String paramName = (String)paramNames.nextElement();
             out.print("<tr><td>" + paramName + "</td>\n<td>");
             String[] paramValues = request.getParameterValues(paramName);
-
             // Read single valued data
             if (paramValues.length == 1) {
                 String paramValue = paramValues[0];
@@ -56,7 +55,17 @@ public class SimpleServlet extends HttpServlet {
                 out.println("</ul>");
             }
         }
-        out.println("</tr>\n</table>\n</body></html>");
+        out.println("</tr>\n</table>\n");
+        String fullName = request.getParameter("full_name");
+        String comicType = request.getParameter("comic_type");
+        String company = request.getParameter("company");
+
+        out.println("<hr><h3>Using Parameter Names</h3><ul>\n" +
+                "  <li><b>full_name</b>: "
+                + fullName + "</li>\n" + "  <li><b>comic_type</b>: "
+                + comicType + "</li>\n" + "  <li><b>company</b>: "
+                + company + "</li>\n" + "</ul>\n");
+        out.println("</body></html>");
     }
 
     // Method to handle POST method request.
