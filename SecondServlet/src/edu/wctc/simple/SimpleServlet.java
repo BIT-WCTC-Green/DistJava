@@ -57,13 +57,16 @@ public class SimpleServlet extends HttpServlet {
         }
         out.println("</tr>\n</table>\n");
         String fullName = request.getParameter("full_name");
-        String comicType = request.getParameter("comic_type");
+        String[] comicType = request.getParameterValues("comic_type");
         String company = request.getParameter("company");
 
         out.println("<hr><h3>Using Parameter Names</h3><ul>\n" +
                 "  <li><b>full_name</b>: "
-                + fullName + "</li>\n" + "  <li><b>comic_type</b>: "
-                + comicType + "</li>\n" + "  <li><b>company</b>: "
+                + fullName + "</li>\n" + "  <li><b>comic_type</b>: ");
+                for(int i = 0; i < comicType.length; i++){
+                    out.println(comicType[i] + ",");
+                }
+                out.println("</li>\n" + "  <li><b>company</b>: "
                 + company + "</li>\n" + "</ul>\n");
         out.println("</body></html>");
     }
