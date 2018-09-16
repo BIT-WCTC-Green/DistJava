@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Comic Book Preferences</h1>
+<h1>Comic Book Preferences - Test #1</h1>
 
 <form action = "simple" method = "Get" target = "_blank">
     Your Name:<input type = "text" name = "full_name"><br>
