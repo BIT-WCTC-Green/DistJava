@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/back.jpg");
+    background-color: #cccccc;
+    font-family: "Trebuchet MS","Arial Black";
+}
+#container {
+    text-align: center;
+    vertical-align: middle;
+}
+tr {
+    border-radius: 25px;
+    border: 3px solid #050505;
+    padding: 20px;
+    width: 670px;
+    height: 110px;
+    background-color:rgb(250,250,250);opacity:0.9;
+    text-align: center;
+}
+tr.purch {
+    height: 50px;
+}
+tr.total {
+    height: 50px;
+    background-color:rgb(200,200,200);opacity:0.9;
+}
+#rcornerstop {
+    border-radius: 25px;
+    border: 2px solid #4F3B3B;
+    padding: 20px;
+    width: 700px;
+    height: 100px;
+    background-color:rgb(170,140,140);opacity:0.9;
+    text-align: center;
+}
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid #4F3B3B;
+    padding: 20px;
+    width: 700px;
+    background-color:rgb(150,110,110);opacity:0.9;
+    text-align: center;
+}
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}

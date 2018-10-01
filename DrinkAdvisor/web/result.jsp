@@ -28,6 +28,7 @@
             // Notice we're outputting some HTML. Is that a good idea?
             // Also, notice we do not cast the object returned by the
             // iterator to a String. Why?
+            Item item = it.next();
             out.print("<br>try: " + it.next());
         }
     %>

@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a2773c-0b75-45d5-ae33-4c77c2fd5d72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ELProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/web/PageRedirect.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/web/Tags.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/web/bill.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/web/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPCookie/web/sessionstuff.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/green/controller/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/green/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/green/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/us/green/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DrinkAdvisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DrinkAdvisor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +20,11 @@
     <session id="1716125616">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,9 +106,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,17 +226,18 @@
       <option name="presentableId" value="Default" />
       <updated>1537831667860</updated>
       <workItem from="1537831672860" duration="739000" />
-      <workItem from="1537978432130" duration="670000" />
+      <workItem from="1537978432130" duration="1325000" />
+      <workItem from="1538053763207" duration="188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1409000" />
+    <option name="totallyTimeSpent" value="2252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15323566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15506716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
