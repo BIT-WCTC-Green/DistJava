@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javax.servlet:jstl:1.2" type="repository">
+    <properties maven-id="javax.servlet:jstl:1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

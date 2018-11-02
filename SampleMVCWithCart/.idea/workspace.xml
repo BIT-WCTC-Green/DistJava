@@ -7,7 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5f983f-d3c8-46b0-9f36-afd67c40aed2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c221.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cab0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cab0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cac1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cac1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cad0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cad0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cae1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cae1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/caf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/caf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da80.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/da91.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/CoffeeDB/seg0/daa1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBSample/out/production/DBSample/CreateCoffeeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DBSample/out/production/DBSample/CreateCoffeeDB.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,19 +63,20 @@
     <session id="1022551197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -260,8 +301,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,7 +357,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,35 +475,45 @@
       <workItem from="1538440969955" duration="2786000" />
       <workItem from="1538506142025" duration="302000" />
       <workItem from="1538578247616" duration="37000" />
+      <workItem from="1539043637767" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30532000" />
+    <option name="totallyTimeSpent" value="31077000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8612245" visible="true" weight="0.2020757" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8602041" visible="true" weight="0.2045177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.13877551" side_tool="true" visible="true" weight="0.2020757" />
+      <window_info id="Web" order="7" sideWeight="0.13979591" side_tool="true" visible="true" weight="0.2045177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32982457" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
