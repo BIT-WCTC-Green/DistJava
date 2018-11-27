@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The XMLHttpRequest Object</h1>
+
+<span id="stuff"></span>
+
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+            var content = "<table>";
+            for (var property in myObj) {
+                if (myObj.hasOwnProperty(property)) {
+                    content += "<tr><td>" + myObj[property].name +
+                        "</td><td>" + myObj[property].artist + "</td></tr>";
+                }
+            }
+            content += "</table>"
+            document.getElementById("stuff").innerHTML = content;
+            alert(this.responseText);
+        }
+    };
+
+    xmlhttp.open("GET", "/songs", true);
+    xmlhttp.send();
+
+</script>
+</body>
+</html>

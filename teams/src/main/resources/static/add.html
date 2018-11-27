@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teams</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<form>
+    <div><input type="text" name="name" id="name"></div>
+    <div><input type="text" name="location" id="location"></div>
+    <div>
+        <button id="addTeam">Add Team</button>
+    </div>
+</form>
+<script>
+    $( "#addTeam" ).click(function( event ) {
+        var message = $( this ).serializeArray();
+        console.log( message );
+        var oReq = new XMLHttpRequest();
+        oReq.open("POST", "/teams");
+        oReq.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        oReq.send(message);
+
+
+    });
+</script>
+</body>
+</html>

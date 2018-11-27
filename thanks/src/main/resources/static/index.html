@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>VEry Thankfull</h1>
+<span id="stuff"></span>
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        var content = "<table>";
+        for (var property in myObj) {
+            if (myObj.hasOwnProperty(property)) {
+                content += "<tr><td>" + myObj[property].what + "</td><td>" + myObj[property].howMuch +
+                    "</td></tr>";
+            }
+        }
+        content += "</table>"
+        document.getElementById("stuff").innerHTML = content;
+    }
+};
+xmlhttp.open("GET", "/verythankful", true);
+xmlhttp.send();
+</script>
+
+</body>
