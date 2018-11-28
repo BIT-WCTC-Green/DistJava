@@ -10,11 +10,12 @@
     <div><input type="text" name="name" id="name"></div>
     <div><input type="text" name="location" id="location"></div>
     <div>
-        <button type="button" id="addTeam">Add Team</button>
+        <button type="button" id="updateTeam">Update Team</button>
     </div>
 </form>
 <script>
-    $( "#addTeam" ).on("click" ,function( event ) {
+    $( "#updateTeam" ).on("click" ,function( event ) {
+
         var finishedMessage="{";
         var message = $( "#theTeam" ).serializeArray();
         $.each(message,function (i,field) {
@@ -22,10 +23,28 @@
 
         });
         finishedMessage =finishedMessage.substring(0,finishedMessage.length - 1) + "}";
+
         var oReq = new XMLHttpRequest();
-        oReq.open("POST", "/teams");
+        oReq.open("PUT", "/teams/"+ $( "#name" ).val());
         oReq.setRequestHeader("Content-Type", "application/json");
         oReq.send(finishedMessage);
+        console.log(finishedMessage);
+    });
+</script>
+
+<form id="dTeam">
+    <div><input type="text" name="name" id="dName"></div>
+    <div>
+        <button type="button" id="deleteTeam">Delete Team</button>
+    </div>
+</form>
+<script>
+    $( "#deleteTeam" ).on("click" ,function( event ) {
+        var name = $( "#dName" ).val();
+        var oReq = new XMLHttpRequest();
+        oReq.open("DELETE", "/teams/"+ name);
+        oReq.setRequestHeader("Content-Type", "application/json");
+        oReq.send();
     });
 </script>
 </body>

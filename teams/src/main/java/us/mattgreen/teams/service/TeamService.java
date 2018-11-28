@@ -26,4 +26,18 @@ public class TeamService {
     public void addTeam(Team team) {
         teams.add(team);
     }
+
+    public void updateTeam(Team team, String id) {
+        for(int i=0;i < teams.size() ;i++) {
+            Team t = teams.get(i);
+            if (t.getName().equals(id)) {
+                teams.set(i,team);
+                return;
+            }
+        }
+    }
+
+    public void deleteTeam(String id) {
+        teams.removeIf(t -> t.getName().equals(id));
+    }
 }

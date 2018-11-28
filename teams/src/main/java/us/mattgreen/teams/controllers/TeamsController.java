@@ -26,4 +26,13 @@ public class TeamsController {
         teamService.addTeam(team);
     }
 
+    @RequestMapping(method=RequestMethod.PUT, value="/teams/{id}")
+    public void updateTeam(@RequestBody Team team, @PathVariable String id) {
+        teamService.updateTeam(team, id);
+    }
+
+    @RequestMapping(method=RequestMethod.DELETE, value="/teams/{id}")
+    public void deleteTeam(@PathVariable String id) {
+        teamService.deleteTeam(id);
+    }
 }
